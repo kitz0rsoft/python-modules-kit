@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
 HOMEPAGE="None https://pypi.org/project/platformdirs/"
-SRC_URI="https://files.pythonhosted.org/packages/6f/4e/4f36f5b7b98d04588104c29e14805ebdf00c7acb607567856c311107d72c/platformdirs-4.3.4.tar.gz -> platformdirs-4.3.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/fc/128cc9cb8f03208bdbf93d3aa862e16d376844a14f9a0ce5cf4507372de4/platformdirs-4.3.6.tar.gz -> platformdirs-4.3.6.tar.gz"
 
 DEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/platformdirs-4.3.4"
+S="${WORKDIR}/platformdirs-4.3.6"
