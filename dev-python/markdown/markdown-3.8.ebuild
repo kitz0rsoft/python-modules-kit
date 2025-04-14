@@ -19,3 +19,9 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 S="${WORKDIR}/markdown-3.8"
+
+src_prepare() {
+	sed -i -e 's/license = "BSD-3-Clause"/license = { text = "BSD-3-Clause" }/' pyproject.toml || die
+	sed -i -e '/license-files/d' pyproject.toml || die
+	distutils-r1_src_prepare
+}
