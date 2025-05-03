@@ -12,6 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/b9/19/7ae64b70b2429c48c3a7a4ed3
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
