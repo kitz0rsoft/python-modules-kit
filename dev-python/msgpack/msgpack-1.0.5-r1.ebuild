@@ -12,7 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/dc/a1/eba11a0d4b764bc62966a565b
 DEPEND=""
 IUSE="native-extensions"
 SLOT="0"
-LICENSE="Apache-2.0"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/msgpack-1.0.5"
 
