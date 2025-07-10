@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A UFO font library"
 HOMEPAGE="https://github.com/fonttools/ufoLib2"
-SRC_URI="https://files.pythonhosted.org/packages/62/5a/400555c4cef12b296f6ba4a2508be13bfa4f43381102dae9d5ff6dcedbbb/ufolib2-0.18.0.tar.gz -> ufolib2-0.18.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/32/4df1cf042ec48d0179d011067ba76051bb2f8462a5477bb33127f9391b41/ufolib2-0.18.1.tar.gz -> ufolib2-0.18.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -21,7 +21,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/ufoLib2-0.18.0"
+S="${WORKDIR}/ufoLib2-0.18.1"
 
 python_prepare_all() {
 	sed -e '/\<wheel\>/d' -i setup.cfg || die
